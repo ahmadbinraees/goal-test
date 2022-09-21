@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World cup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+            margin: 50px 130px 0;
+        }
+        .banner{
+            border-radius: 30px;
+            background-color: rgba(0, 0, 0, 0.911);
+            color: whitesmoke;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+        .half-width{
+            padding: 30px 0 0 50px;
+        }
+        .extra-padding{
+            padding-bottom: 40px;
+        }
+        .half-width h1{
+            font-size: 50px;
+        }
+        .half-width p{
+            font-size: smaller;
+            color: rgb(145, 145, 145);
+        }
+        .half-width button{
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            color: whitesmoke;
+            padding: 15px 40px;
+        }
+        .banner img{
+            height: 100%;
+        }
+
+        @media screen and (max-width: 557px){
+            .banner{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="banner">
+        <div class="half-width extra-padding">
+            <h1>The Greatest <br> show on the <br> earth</h1>
+            <p>
+                Contrary to popular belief, Lorem Ipsum is not simply <br> 
+                random text. It has roots in a piece of classical Latin literature <br>
+                from 45 BC, making it over 2000 years old.
+            </p>
+            <button>Watch Live</button>
+        </div>
+        <div class="half-width">
+            <img src="assets/Banner Image.png" alt="">
+        </div>
+    </section>
+</body>
+</html>
