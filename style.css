@@ -144,6 +144,9 @@ footer a{
         justify-content: space-between;
         width: 100%;
     }
+    .magic-button a{
+        border: 1px solid gray;
+    }
     .grid-container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -187,6 +190,9 @@ footer a{
         display: grid;
         justify-content: center;
         gap: 5px;
+    }
+    .magic-button a{
+        border: 1px solid gray;
     }
     .grid-container{
         grid-template-columns: repeat(1, 1fr);
