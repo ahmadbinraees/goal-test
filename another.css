@@ -1,0 +1,23 @@
+.grid-card{
+    text-align: center;
+    width: 312px;
+    height: 242px;
+}
+.grid-card > h3{
+    color: rgb(77, 77, 77);
+    font-weight: 100;
+}
+.flex-flag{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-flag img{
+    height: fit-content;
+    padding: 5px 0 0;
+}
+
+@media screen and (max-width: 786px) {
+    .grid-card{
+        width: auto;
+    }
+}
