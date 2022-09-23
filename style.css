@@ -36,10 +36,12 @@ body{
     text-decoration: none;
     border: none;
     border-radius: 5px;
-    padding: 15px 40px;
+    padding: 10px 0 10px 30px;
+    width: 145px;
     background-color: red;
     color: whitesmoke;
     font-weight: 500;
+    display: block;
 }
 /*---------------------------------------------------------
                     Magic-Button
@@ -99,9 +101,6 @@ body{
     position: relative;
     top: 2px;
 }
-.collaps{
-    display: none;
-}
 /*----------------------------------------------------------
                         Footer
 ------------------------------------------------------------*/
@@ -149,6 +148,11 @@ footer a{
         margin-bottom: 0;
         padding: 20px 0 25px 25px;
     }
+    .banner a{
+        display: block;
+        margin: 10px 0 0;
+        width: 120px;
+    }
     .half-width{
         width: 100%;
         padding: 0;
@@ -184,6 +188,9 @@ footer a{
     .grid-card > img{
         width: 100%;
     }
+    .collaps{
+        display: none;
+    }
     .footer-a{
         width: 80%;
         margin: auto;
@@ -200,13 +207,23 @@ footer a{
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 0;
+        padding: 0;
+        text-align: center;
     }
     .half-width{
         width: 100%;
         padding: 0;
+        height: auto;
     }
     .banner img{
         width: 100%;
+    }
+    .banner a{
+        display: block;
+        margin: auto;
+        padding: 7px 0 0;
+        width: 150px;
+        height: 35px;
     }
     .flexible{
         flex-direction: column;
